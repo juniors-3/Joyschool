@@ -1,0 +1,43 @@
+/* RESET */
+
+body,
+p,
+h1,
+h2,
+h3,
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black
+}
+
+/* MENU */
+
+.menu{
+    background: gray;
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.menu-container::after, .menu::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.menu-logo{
+    display: block;
+    float: left;
+}
+
+.menu-nav{
+    float: right;
+}
+
+.menu-nav li{
+    display: inline-block;
+}
