@@ -10,17 +10,32 @@ ul{
     margin: 0px;
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Roboto', sans-serif;
     color: black
 }
+
+
 
 /* MENU */
 
 .menu{
-    background: gray;
+    background: url('/img/banner-principal.jpg') no-repeat center center;
+    background: cover;
+    height: 720px;
+}
+
+.menu-container{
     max-width: 960px;
+    padding: 10px 0;
+    background: #ffffff;
     margin: 60px auto;
+    border-right: 5px solid #ffffff;
 }
 
 .menu-container::after, .menu::before{
@@ -32,12 +47,42 @@ body{
 .menu-logo{
     display: block;
     float: left;
+    padding-left: 10px;
+}
+
+.menu-escrito{
+    float: left;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 1.875em;
+    color: gray;
 }
 
 .menu-nav{
     float: right;
+    padding-top: 20px;
 }
 
 .menu-nav li{
     display: inline-block;
 }
+
+.menu-nav a{
+    display: block;
+    font-size: 1.25em;
+    padding: 0 20px;
+}
+
+.menu-nav li:hover{
+    padding-bottom: 10px;
+    border-bottom: 10px solid #C6DEE0;
+}
+
+/* INTRO */
+
+
+
+
+
+
+
