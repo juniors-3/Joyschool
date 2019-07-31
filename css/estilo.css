@@ -5,17 +5,17 @@ p,
 h1,
 h2,
 h3,
-ul{
+ul {
     padding: 0px;
     margin: 0px;
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
 
-body{
+body {
     font-family: 'Roboto', sans-serif;
     color: black
 }
@@ -24,13 +24,13 @@ body{
 
 /* MENU */
 
-.menu{
+.menu {
     background: url('/img/banner-principal.jpg') no-repeat center center;
     background: cover;
     height: 720px;
 }
 
-.menu-container{
+.menu-container {
     max-width: 960px;
     padding: 10px 0;
     background: #ffffff;
@@ -38,19 +38,20 @@ body{
     border-right: 5px solid #ffffff;
 }
 
-.menu-container::after, .menu::before{
+.menu-container::after,
+.menu::before {
     content: '';
     display: table;
     clear: both;
 }
 
-.menu-logo{
+.menu-logo {
     display: block;
     float: left;
     padding-left: 10px;
 }
 
-.menu-escrito{
+.menu-escrito {
     float: left;
     padding-top: 12px;
     padding-left: 10px;
@@ -58,31 +59,122 @@ body{
     color: gray;
 }
 
-.menu-nav{
+.menu-nav {
     float: right;
     padding-top: 20px;
 }
 
-.menu-nav li{
+.menu-nav li {
     display: inline-block;
 }
 
-.menu-nav a{
+.menu-nav a {
     display: block;
     font-size: 1.25em;
     padding: 0 20px;
 }
 
-.menu-nav li:hover{
+.menu-nav li:hover {
     padding-bottom: 10px;
     border-bottom: 10px solid #C6DEE0;
 }
 
-/* INTRO */
+/* SOBRE */
+
+.sobre-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.sobre-container::after,.sobre-container::before{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.bloco-1 {
+    height: 200px;
+    width: 300px;
+    background: #FFDD57;
+    float: right;
+    margin-top: -350px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.bloco-1 h1 {
+    font-size: 3em;
+    float: left;
+    color: #FFDD57;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.bloco-1 h2 {
+    padding-top: 25px;
+}
+
+.circulo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    margin-left: 113px;
+    margin-top: 19px;
+}
+
+.bloco-2{
+    height: 200px;
+    width: 300px;
+    background: #FF8357;
+    float: left;
+    margin-top: -120px;
+    color: #ffffff;
+    text-align: center;
+}
 
 
+.bloco-2 h1 {
+    font-size: 3em;
+    float: left;
+    color: #FF8357;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+
+.bloco-2 h2 {
+    padding-top: 25px;
+}
+
+.bloco-3{
+    height: 200px;
+    width: 300px;
+    background: #83C7D4;
+    float: right;
+    margin-top: 120px;
+    color: #ffffff;
+    text-align: center;
+}
 
 
+.bloco-3 h1 {
+    font-size: 3em;
+    float: left;
+    color: #83C7D4;
+    padding-left: 130px;
+    padding-top: 20px;
+}
 
+.bloco-3 h2 {
+    padding-top: 25px;
+}
 
+.sobre-texto{
+    padding-top: 120px;
+    max-width: 600px;
+}
+
+.sobre-texto h2{
+    padding-bottom: 20px;
+}
 
