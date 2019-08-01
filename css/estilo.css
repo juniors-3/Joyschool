@@ -172,9 +172,37 @@ body {
 .sobre-texto{
     padding-top: 120px;
     max-width: 600px;
+    line-height: 30px;
 }
 
 .sobre-texto h2{
     padding-bottom: 20px;
 }
 
+/* INFO */
+.info{
+    padding-top: 80px;
+}
+
+.info-container{
+    max-width: 100%;
+}
+.info img{
+    width: 800px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info-texto{
+    width: 450px;
+    float: right;
+    padding-right: 200px;
+    padding-top: 50px;
+    line-height: 30px;
+}
+
+.info-texto h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
