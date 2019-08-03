@@ -86,7 +86,8 @@ body {
     margin: 0 auto;
 }
 
-.sobre-container::after,.sobre-container::before{
+.sobre-container::after,
+.sobre-container::before {
     content: '';
     display: table;
     clear: both;
@@ -114,7 +115,7 @@ body {
     padding-top: 25px;
 }
 
-.circulo{
+.circulo {
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -123,7 +124,7 @@ body {
     margin-top: 19px;
 }
 
-.bloco-2{
+.bloco-2 {
     height: 200px;
     width: 300px;
     background: #FF8357;
@@ -146,10 +147,10 @@ body {
     padding-top: 25px;
 }
 
-.bloco-3{
+.bloco-3 {
     height: 200px;
     width: 300px;
-    background: #83C7D4;
+    background: #87C97F;
     float: right;
     margin-top: 120px;
     color: #ffffff;
@@ -160,7 +161,7 @@ body {
 .bloco-3 h1 {
     font-size: 3em;
     float: left;
-    color: #83C7D4;
+    color: #87C97F;
     padding-left: 130px;
     padding-top: 20px;
 }
@@ -169,40 +170,175 @@ body {
     padding-top: 25px;
 }
 
-.sobre-texto{
+.sobre-texto {
     padding-top: 120px;
     max-width: 600px;
     line-height: 30px;
 }
 
-.sobre-texto h2{
+.sobre-texto h2 {
     padding-bottom: 20px;
 }
 
 /* INFO */
-.info{
+.info {
     padding-top: 80px;
 }
 
-.info-container{
+.info-container {
     max-width: 100%;
 }
-.info img{
-    width: 800px;
+
+.info img {
+    width: 500px;
     height: 250px;
     object-fit: cover;
     object-position: center;
 }
 
-.info-texto{
+.info-texto {
     width: 450px;
     float: right;
     padding-right: 200px;
-    padding-top: 50px;
+    padding-top: 30px;
     line-height: 30px;
 }
 
-.info-texto h2{
+.info-texto h2 {
     padding-bottom: 20px;
     text-align: center;
+}
+
+/* CURSOS */
+
+.cursos {
+    padding-top: 80px;
+}
+
+.cursos-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.cursos-container>div {
+    width: 300px;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.cursos h2 {
+    padding-bottom: 20px;
+}
+
+.cursos p {
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+.curso-criatividade {
+    float: left;
+}
+
+.curso-inovacao {
+    float: right;
+}
+
+.curso-criatividade a {
+    padding: 15px;
+    background: #83C7D4;
+    color: #fff;
+}
+
+.curso-inovacao a {
+    padding: 15px;
+    background: #87C97F;
+    color: #fff;
+}
+
+/* SERVIÇOS */
+.servicos-container {
+    max-width: 100%;
+}
+
+.servicos img {
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+    float: right;
+}
+
+.servicos-texto {
+    width: 450px;
+    float: left;
+    padding-left: 200px;
+    padding-top: 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.servicos-texto h2 {
+    padding-bottom: 10px;
+}
+
+.servicos-texto p {
+    padding-bottom: 10px;
+}
+
+.servicos a {
+    padding: 15px;
+    color: #fff;
+    background: #FF8357;
+
+}
+
+.servicos-container::after,
+.servicos-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* EXEMPLOS */
+
+.exemplos {
+    padding-top: 80px;
+}
+
+.exemplos-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.exemplos-container::after,
+.exemplos-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.exemplos-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-right: 100px;
+}
+
+.exemplos li{
+    display: inline-block;
+    width: 300px;
+    float: left;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.img{
+    width: 300px;
+    float: left;
+    padding-bottom: 20px;
 }
