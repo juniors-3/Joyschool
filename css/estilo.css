@@ -327,7 +327,7 @@ body {
     margin-right: 100px;
 }
 
-.exemplos li{
+.exemplos li {
     display: inline-block;
     width: 300px;
     float: left;
@@ -337,8 +337,68 @@ body {
 
 }
 
-.img{
+.img {
     width: 300px;
     float: left;
     padding-bottom: 20px;
+}
+
+
+/* RODAPE */
+
+.rodape {
+    padding-top: 80px;
+}
+
+.rodape-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.mapa {
+    float: left;
+    padding-left: 80px;
+}
+
+.endereco {
+    float: right;
+    padding-right: 80px;
+}
+
+.endereco h2 {
+    color: #87C97F;
+    padding-bottom: 10px;
+}
+
+.endereco p {
+    padding-bottom: 10px;
+}
+
+.endereco h3 {
+    color: #83C7D4;
+    font-size: 1.87em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.redesocial{
+    float: left;
+    padding-left: 35px;
+}
+.redesocial h2 {
+    color: #87C97F;
+    padding-bottom: 15px;
+}
+
+.redesocial a{
+    background: none;
+}
+
+.redesocial img{
+    width: 30px;
+    height: 30px;
+}
+
+.redesocial li{
+    display: inline-block
 }
